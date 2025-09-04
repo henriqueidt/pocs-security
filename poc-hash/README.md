@@ -21,3 +21,7 @@ Not all hash functions are suitable for cryptography. To be used for Cryptograph
   - Names are usually `SHA-` followed by the bit length (e.g., `SHA-256`, `SHA-512`).
 - **SHA-3**
 - **BLAKE2**
+
+## HMAC
+- HMAC (Hash-based Message Authentication Code) is a mechanism that combines a cryptographic hash function with a secret key.
+- It provides data integrity and authenticity by ensuring that the message has not been altered and is from a legitimate sender.
